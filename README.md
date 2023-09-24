@@ -63,7 +63,7 @@ The [_L1_ norm][l1norm] is defined as
 ## Usage
 
 ```javascript
-import dasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@deno/mod.js';
+import dasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@v0.1.0-deno/mod.js';
 ```
 
 #### dasumpw( N, x, stride )
@@ -172,7 +172,7 @@ var v = dasumpw.ndarray( N, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import dasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@deno/mod.js';
+import dasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@v0.1.0-deno/mod.js';
 
 var x;
 var i;
