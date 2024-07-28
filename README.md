@@ -63,6 +63,11 @@ The [_L1_ norm][l1norm] is defined as
 ## Usage
 
 ```javascript
+import dasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dasumpw/tags). For example,
+
+```javascript
 import dasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@v0.2.2-deno/mod.js';
 ```
 
@@ -164,7 +169,7 @@ var v = dasumpw.ndarray( 4, x, 2, 1 );
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import dasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@v0.2.2-deno/mod.js';
+import dasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@deno/mod.js';
 
 var x = filledarrayBy( 10, 'float64', discreteUniform( 0, 100 ) );
 console.log( x );
