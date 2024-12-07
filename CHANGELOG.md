@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-07)
 
 <section class="features">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`ff80d7d`](https://github.com/stdlib-js/stdlib/commit/ff80d7db842f8b1d35213fde391bb7b5f063ac42) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dasumpw` [(#3362)](https://github.com/stdlib-js/stdlib/pull/3362) _(by Muhammad Haris)_
 -   [`a13603b`](https://github.com/stdlib-js/stdlib/commit/a13603b556defa762f7fe1d25fbfa3b621404f69) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusum` [(#2954)](https://github.com/stdlib-js/stdlib/pull/2954) _(by Muhammad Haris)_
 -   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`6fd2e23`](https://github.com/stdlib-js/stdlib/commit/6fd2e23eb246789e43b311eabe9f2fac532175b7) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dasumpw` [(#2949)](https://github.com/stdlib-js/stdlib/pull/2949) _(by Muhammad Haris, Athan Reines)_
