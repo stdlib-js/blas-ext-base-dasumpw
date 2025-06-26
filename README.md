@@ -299,7 +299,7 @@ int main( void ) {
     double v = stdlib_strided_dasumpw( N, x, strideX );
 
     // Print the result:
-    printf( "sumabs: %lf\n", sum );
+    printf( "sumabs: %lf\n", v );
 }
 ```
 

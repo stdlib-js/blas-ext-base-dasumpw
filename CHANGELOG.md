@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-06-26)
 
 <section class="features">
 
@@ -36,6 +36,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`c221279`](https://github.com/stdlib-js/stdlib/commit/c2212790b0118b7787b5e292244b4364c08ea05a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`d2aa857`](https://github.com/stdlib-js/stdlib/commit/d2aa857a823eed13a409c724c4d19fa876ad2742) - **feat:** add `blas/ext/base/wasm/dasumpw` [(#5549)](https://github.com/stdlib-js/stdlib/pull/5549) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`99388d1`](https://github.com/stdlib-js/stdlib/commit/99388d1aeabe238c519707b8e08843a4bdeb04d4) - **test:** fix grammar in descriptions _(by Athan Reines)_
