@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-06-26)
+## 0.3.0 (2026-01-29)
 
 <section class="features">
 
@@ -36,6 +36,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`c221279`](https://github.com/stdlib-js/stdlib/commit/c2212790b0118b7787b5e292244b4364c08ea05a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`d2aa857`](https://github.com/stdlib-js/stdlib/commit/d2aa857a823eed13a409c724c4d19fa876ad2742) - **feat:** add `blas/ext/base/wasm/dasumpw` [(#5549)](https://github.com/stdlib-js/stdlib/pull/5549) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
