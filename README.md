@@ -65,6 +65,11 @@ The [_L1_ norm][l1norm] is defined as
 To use in Observable,
 
 ```javascript
+dasumpw = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dasumpw/tags). For example,
+
+```javascript
 dasumpw = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@v0.3.1-umd/browser.js' )
 ```
 
@@ -77,7 +82,7 @@ var dasumpw = require( 'path/to/vendor/umd/blas-ext-base-dasumpw/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -188,7 +193,7 @@ var v = dasumpw.ndarray( 4, x, 2, 1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dasumpw@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
