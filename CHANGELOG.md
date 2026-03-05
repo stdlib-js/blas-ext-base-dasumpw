@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-01)
+## Unreleased (2026-03-05)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`727913e`](https://github.com/stdlib-js/stdlib/commit/727913e9b2237fea29d90d1d6cb39c44ea904de7) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dasumpw` [(#10608)](https://github.com/stdlib-js/stdlib/pull/10608) _(by Prajjwal Bajpai)_
 -   [`d244f4c`](https://github.com/stdlib-js/stdlib/commit/d244f4cc4c04b774c1c5e8372b013832140f2342) - **bench:** refactor to use string interpolation in `blas/ext/base/dasumpw` [(#10610)](https://github.com/stdlib-js/stdlib/pull/10610) _(by Prajjwal Bajpai)_
 
 </details>
